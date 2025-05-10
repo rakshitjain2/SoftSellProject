@@ -6,14 +6,14 @@ const HomeP = () => {
    return (
         <div className="mx-auto w-full max-w-7xl bg-blue-50">
             <div className="">
-                <div className='pt-8    '>
-                    <h1 className=' text-4xl font-bold justify-center'>Welcome to SoftShell</h1>
-                    <p className="mt- pb-4 text-gray-600">
+                <div className='pt-8 '>
+                    <h1 className=' text-4xl font-bold flex items-center justify-center '>Welcome to SoftShell</h1>
+                    <p className=" pb-4 text-gray-600 flex items-center justify-center">
                         You can resell your licence here
                     </p>
                     <Link
                         to="/sellhere"
-                        className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                        className="flex items-center justify-center text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none "
                     >
                         Sell Here!!
                     </Link>
