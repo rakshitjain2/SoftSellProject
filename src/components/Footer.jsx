@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
+                        <Link to="SoftSellProject/" className="flex items-center">
                             <img
                                 src="https://i.ibb.co/rRkx6R4f/Soft-Sell-Final-Logo.jpg"
                                 className="mr-3 h-16"
@@ -20,7 +20,7 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="SoftSellProject/" className="hover:underline">
                                         Home
                                     </Link>
                                 </li>

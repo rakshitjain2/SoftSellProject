@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router';
 import Card from './Card';
 
-export default function Home() {
-    return (
+const HomeP = () => {
+   return (
         <div className="mx-auto w-full max-w-7xl bg-blue-50">
             <div className="">
                 <div className='pt-8'>
@@ -50,3 +50,5 @@ export default function Home() {
         </div>
     );
 }
+
+export default HomeP
