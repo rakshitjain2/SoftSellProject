@@ -6,7 +6,7 @@ const HomeP = () => {
    return (
         <div className="mx-auto w-full max-w-7xl bg-blue-50">
             <div className="">
-                <div className='pt-8'>
+                <div className='pt-8    '>
                     <h1 className=' text-4xl font-bold justify-center'>Welcome to SoftShell</h1>
                     <p className="mt- pb-4 text-gray-600">
                         You can resell your licence here

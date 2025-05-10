@@ -15,8 +15,9 @@ const route = createBrowserRouter([{
   path:'/',
   element: <Layout/>,
   children:[
+
     {
-      path:'SoftSellProject/',
+      path:'/',
       element: <HomeP/>
     },
     {
@@ -33,6 +34,12 @@ const route = createBrowserRouter([{
       element:<SellHere/>,
       
     },
+
+     // Catch-all route for unmatched paths
+      {
+        path: '*',
+        element: <HomeP/>,
+      },
 
   ]
 }])
