@@ -27,12 +27,7 @@ const route = createBrowserRouter([{
       path:'/ContactUs',
       element: <Contact/>
     },
-    {
-      path:'/user/:UserId',
-      element: <User/>
-
-    },
-    
+   
     {
       path: '/SellHere',
       element:<SellHere/>,
